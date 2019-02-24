@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
 @Entity
@@ -20,7 +21,9 @@ public class User {
 	private String user_password;
 	
 	@OneToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="e_id")
 	private Employee employee;
+	
 
 	public int getUser_id() {
 		return user_id;
