@@ -1,3 +1,4 @@
+
 package com.alighthub.bikeRent.model;
 
 import javax.persistence.CascadeType;

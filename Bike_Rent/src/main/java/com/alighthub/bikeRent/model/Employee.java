@@ -1,3 +1,4 @@
+
 package com.alighthub.bikeRent.model;
 
 import javax.persistence.Entity;
@@ -21,7 +22,6 @@ public class Employee {
 	private long employee_contact;
 	
 	private String employee_address;
-	
 
 	public int getEmployee_id() {
 		return employee_id;
@@ -73,3 +73,4 @@ public class Employee {
 	
 
 }
+
