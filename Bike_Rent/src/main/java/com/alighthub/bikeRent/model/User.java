@@ -11,7 +11,7 @@ import javax.persistence.OneToOne;
 
 @Entity
 public class User {
-	/// HEloo All
+	/// Hello Sagar
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
